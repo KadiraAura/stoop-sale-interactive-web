@@ -1,0 +1,44 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    background-color: #F2EFC7;
+}
+
+#google-map{
+    border:1px solid #ccc;
+    width:700px;
+    height:500px;
+    align-self: center;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.feh-content * {
+    font-family: 'uniform','sans-serif';
+}
+
+.feh-content h3 {
+    font-weight: 500;
+    margin-bottom:10 px;
+    line-height : 16px;
+}
+
+.map-flex-container {
+    display: flex;
+    margin: 75px;
+    gap: 75px;
+    flex: 0 1 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+}
+
+.map-title-flex-box {
+    font-size: 75px;
+    font-family: "Pixelify Sans", Helvetica, Arial, sans-serif;
+    color: #341C02;   
+}
